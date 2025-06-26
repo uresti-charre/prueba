@@ -54,7 +54,7 @@ if "finalizado" not in st.session_state:
     st.session_state.finalizado = False
 
 # --- Título y progreso ---
-st.title("🧭 Test Vocacional Interactivo")
+st.title("🧭 Test Vocacional Interactivo 2")
 progreso = len(st.session_state.respuestas)
 st.progress(progreso / len(preguntas))
 
